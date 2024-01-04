@@ -11,6 +11,7 @@
     height: 100vh;
     background-size: cover;
     background-position: center bottom;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 48% 100%, 48% 100%, 0 80%);
 }
 .hero h1{
     color: white;
@@ -21,19 +22,21 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
 }
-.article{
+.article, #cow-type{
+    border-radius: 10px;
+    background: linear-gradient(45deg, pink, #da5bbe);
     width: 80%;
     margin:60px auto;
     text-align: justify;
-    background-color: rgb(5, 243, 243);
+    /* background-color: rgb(5, 243, 243); */
     padding: 60px;
     /* border-width:15px;
     border-color: brown;
     border-style: solid; */
-    border: 15px solid rgb(219, 89, 89);
+    /* border: 15px solid rgb(219, 89, 89); */
 }
 
-.article h1{
+.article h1, #cow-type h1{
     font-size: 45px;
     font-weight: 600;
     border-bottom: 2px solid rgb(219, 89, 89);
@@ -44,4 +47,18 @@
 
 .article p{
     font-size: 28px;
+}
+.article p span{
+    background-color: #ffff04a9;
+    padding: 2px;
+}
+.cow-image{
+    display: flex;
+    min-width: 300px;
+    /* flex-direction: column; */
+    gap: 20px;
+}
+
+.cow-image img{
+    width: 100%;
 }
