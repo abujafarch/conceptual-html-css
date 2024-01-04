@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.hero{
+    background-image: url(../Images/thecow.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center bottom;
+}
+.hero h1{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    padding-top: 60px;
+    /* margin-top: 60px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+.article{
+    width: 80%;
+    margin:60px auto;
+    text-align: justify;
+    background-color: rgb(5, 243, 243);
+    padding: 60px;
+    /* border-width:15px;
+    border-color: brown;
+    border-style: solid; */
+    border: 15px solid rgb(219, 89, 89);
+}
+
+.article h1{
+    font-size: 45px;
+    font-weight: 600;
+    border-bottom: 2px solid rgb(219, 89, 89);
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.article p{
+    font-size: 28px;
+}
